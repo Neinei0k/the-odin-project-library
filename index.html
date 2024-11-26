@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library</title>
+  <script src="library.js"></script>
+</head>
+<body>
+
+<dialog id="new-book-info">
+<div>
+    <span>Title:</span>
+    <input type="text" id="new-book-title"/>
+</div>
+<div>
+    <span>Author:</span>
+    <input type="text" id="new-book-author"/>
+</div>
+<div>
+    <span>Pages:</span>
+    <input type="number" min="1" value="1" id="new-book-pages"/>
+</div>
+<div>
+    <span>Read:</span>
+    <input type="checkbox"  id="new-book-read"/>
+</div>
+<div>
+    <button id="add-book">Add</button>
+</div>
+</dialog>
+
+<button id="new-book">New book</button>
+<table id="library">
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Pages</th>
+        <th>Read</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    </tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
