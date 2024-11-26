@@ -16,7 +16,3 @@ function addBookToLibrary(title, author, pages, read) {
         new Book(title, author, pages, read)
     );
 }
-
-addBookToLibrary("The Library of Babel", "Jorge Luis Borges", 8, true);
-addBookToLibrary("The Book of Sand", "Jorge Luis Borges", 10, false);
-addBookToLibrary("A Study in Scarlet", "Arthur Conan Doyle", 100, true);
